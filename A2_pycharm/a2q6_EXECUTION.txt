@@ -1,0 +1,13 @@
+#Michael Angelo C. Adraincem
+#MCA655 11208422
+
+
+PYTHON 3.7
+Put all files in one directory, I used Pycharm IDE to compile/run and test the files
+Using UNIX terminal:
+    1. Put all files in one directory
+    2. cd to current working directory
+    3. Type command "python3 a2q6.py /*"
+    4. This will test a2q1 using data1.txt
+    5. To test different questions delete # mark before the line of code in main() of a2q6.py
+    6. After running a test, Average time and RSME will appear on the bottom respectively

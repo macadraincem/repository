@@ -1,0 +1,34 @@
+#Michael Angelo C. Adraincem
+#MCA655 11208422
+
+
+a2q6_data1.txt:
+Strategy:                                   RMSE                                        Ave Time
+Random Guessing                             0.9949651996149088                          0.06041184902191162 seconds
+Random Search                               0.9962491455676582                          0.0755537223815918 seconds
+Hill-Climbing                               0.9964535495272201                          0.16961493015289306 seconds
+Stochastic Hill-Climbing                    0.9961613135827417                          2.521377909183502 seconds
+Random-Restart-Hill Climbing(5x20)          1.0000280263462389                          0.16982430219650269 seconds
+Random-Restart-Hill Climbing(10x100)        0.9949763453605817                          0.18164549827575682 seconds
+
+
+
+a2q6_data2.txt:
+Strategy:                                   RMSE                                        Ave Time
+Random Guessing                             0.9969412684908014                          0.2773144769668579 seconds
+Random Search                               0.9985175581592296                          0.2857484793663025 seconds
+Hill-Climbing                               0.9975187889191539                          0.742495927810669 seconds
+Stochastic Hill-Climbing                    0.9881625790460828                          13.115072989463807 seconds
+Random-Restart-Hill Climbing(50x20)         1.0014270613275276                          0.7600985288619995 seconds
+Random-Restart-Hill Climbing(10x100)        1.002551124186628                           0.8292102003097535 seconds
+
+
+
+QUESTIONS:
+
+1. Random Guessing had lowest RMSE
+2. Given enough iterations it works well (more iterations = more accurate results)
+3. A lot of short runs (5x20) is more accurate
+4. Based on the data on the table above, it will slightly increase given a lot of numbers in L, but is a negligible difference
+
+
